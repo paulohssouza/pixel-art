@@ -1,3 +1,8 @@
+@font-face {
+  font-family: BreatheFire;
+  src: url(Fontes/breathe-fire-iii-font/BreatheFireIii-PKLOB.ttf);
+}
+
 header {
   display: flex;
   flex-wrap: wrap;
@@ -6,4 +11,14 @@ header {
 
 #title {
   flex: 1 1 150px;
+  font-family: BreatheFire;
+}
+
+#colorPicker {
+  width: 40px;
+  height: 40px;
+}
+
+#input {
+  font-family: BreatheFire;
 }
