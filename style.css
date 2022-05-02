@@ -21,10 +21,6 @@ body {
   background-color: gray;
 }
 
-main {
- 
-}
-
 #title {
   flex: 1 1 150px;
   font-family: BreatheFire;
@@ -73,9 +69,9 @@ main {
   border-radius: 15px;
   width: 80px;
   height: 40px;
-  background-color: black;
+  background-color: gray;
   font-family: BreatheFire;
-  color: white;
+  color: black;
   font-size: 20px;
   cursor: pointer;
 }
@@ -101,9 +97,9 @@ main {
   border-radius: 15px;
   width: 80px;
   height: 40px;
-  background-color: black;
+  background-color: gray;
   font-family: BreatheFire;
-  color: white;
+  color: black;
   font-size: 20px;
   cursor: pointer;
 }
