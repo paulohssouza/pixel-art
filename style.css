@@ -9,16 +9,87 @@ header {
   text-align: center;
 }
 
+label {
+  margin: 10px;
+  top: 90%;
+}
+
+body {
+  background-color: gray;
+}
+
 #title {
   flex: 1 1 150px;
   font-family: BreatheFire;
+  background: rgba(255, 2, 2, 0.500);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 70px;
 }
 
 #colorPicker {
   width: 40px;
   height: 40px;
+  margin: 10px;
 }
 
 #input {
+  position: relative;
   font-family: BreatheFire;
+  display: block;
+  background: rgba(255, 2, 2, 0.500);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 200px;
+  align-items: center;
+  justify-items: center;
+  margin: 10px;
+}
+
+#input :nth-child(n) {
+  position: relative;
+  display: block;
+}
+
+#btn-grid-size {
+  margin: 10px;
+  border-radius: 15px;
+  width: 80px;
+  height: 40px;
+  background-color: black;
+  font-family: BreatheFire;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: solid black 1px;
+}
+
+#size-grid {
+  margin: 10px;
+  padding: 2px;
+  width: 50px;
+}
+
+#clear-board {
+  margin: 10px;
+  border-radius: 15px;
+  width: 80px;
+  height: 40px;
+  background-color: black;
+  font-family: BreatheFire;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
 }

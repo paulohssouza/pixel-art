@@ -7,24 +7,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pixel Art</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script type="text/javascript" src="script.js" defer></script>
 </head>
 
 <body>
-	<header class="container-fluid">
-		<h1 id="title" class="display-2">Pixel Art</h1>
+	<header>
+		<h1 id="title">Pixel Art</h1>
 	</header>
-	<main class="container-fluid">
-		<section id="grid" class="container-fluid">
+	<main>
+		<section id="grid">
 		</section>
-		<section id="input" class="container-fluid">
+		<section id="input">
 			<label for="colorPicker" id="label-color">Selecione uma cor:</label>
 			<input type="color" name="colorPicker" id="colorPicker">
-		</section>
-		<button id="clear-board">Limpar</button>
-		<section id="pixel-board">
+			<label for="size">Digite o tamanho do grid:</label>
+			<input type="text" name="size" id="size-grid">
+			<button id="btn-grid-size">Alterar</button>
+			<button id="clear-board">Limpar</button>
 		</section>
 	</main>
 </body>
