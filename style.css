@@ -18,14 +18,14 @@ label {
 }
 
 body {
-  background-color: gray;
+  background-color: rgb(109, 107, 107);
 }
 
 #title {
   flex: 1 1 150px;
   font-family: BreatheFire;
-  background: rgba(255, 2, 2, 0.500);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(255, 255, 255, 0.200);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
@@ -42,26 +42,22 @@ body {
 #input {
   position: relative;
   font-family: BreatheFire;
-  display: block;
-  background: rgba(255, 2, 2, 0.500);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-content: space-around;
+  background: rgba(255, 255, 255, 0.200);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 200px;
+  width: 500px;
   align-items: center;
   justify-items: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
-  position: relative;
-  width: 300px;
-}
-
-#input :nth-child(n) {
-  position: relative;
-  display: inline-block
+  margin-top: 20px;
 }
 
 #btn-grid-size {
@@ -87,9 +83,10 @@ body {
 }
 
 #size-grid {
-  margin: 10px;
+  margin: 5px;
   padding: 2px;
-  width: 50px;
+  width: 35px;
+  height: 25px;
 }
 
 #clear-board {
@@ -112,6 +109,6 @@ body {
 }
 
 #grid {
-  margin: auto;
+  margin-top: 30px;
   padding: 10px;
 }

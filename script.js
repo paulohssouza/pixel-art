@@ -21,7 +21,6 @@ let arrayPixel = document.getElementsByClassName('pixel');
 grid.addEventListener('click', function (event) {
 	for (let index = 0; index < arrayPixel.length; index += 1) {
 		let pixelClicked = event.target;
-		console.log(arrayPixel);
 		pixelClicked.style.cssText = 'background-color: ' + document.getElementById('colorPicker').value;
 	}
 });
@@ -36,5 +35,4 @@ btnResize.onclick = function () {
 	contLine = 1;
 	createGrid(size);
 	arrayPixel = document.getElementsByClassName('pixel');
-	console.log(arrayPixel);
 };
