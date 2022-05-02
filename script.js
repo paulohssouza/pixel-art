@@ -18,13 +18,11 @@ function createGrid(size) {
 	}
 }
 let arrayPixel = document.getElementsByClassName('pixel');
-grid.addEventListener('click', function() {
+grid.addEventListener('click', function (event) {
 	for (let index = 0; index < arrayPixel.length; index += 1) {
-		arrayPixel[index].addEventListener('click', function (event) {
-			let pixelClicked = event.target;
-			console.log(arrayPixel);
-			pixelClicked.style.cssText = 'background-color: ' + document.getElementById('colorPicker').value;
-		});
+		let pixelClicked = event.target;
+		console.log(arrayPixel);
+		pixelClicked.style.cssText = 'background-color: ' + document.getElementById('colorPicker').value;
 	}
 });
 btnClear.onclick = function () {
